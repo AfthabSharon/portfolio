@@ -92,7 +92,7 @@ function App() {
                   className="icon"
                 />
                 <h3>Experience</h3>
-                <p>2+ years <br />Frontend Development</p>
+                <p>6 month <br />internship @Synnefosolution</p>
               </div>
               <div className="details-container">
                 <img
@@ -101,7 +101,7 @@ function App() {
                   className="icon"
                 />
                 <h3>Education</h3>
-                <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+                <p>BCA Bachelors Computer Application<br />Calicut University</p>
               </div>
             </div>
             <div className="text-container">
@@ -273,11 +273,11 @@ function App() {
                   className="project-img"
                 />
               </div>
-              <h2 className="experience-sub-title project-title">Project One</h2>
+              <h2 className="experience-sub-title project-title">E-COMMERCE</h2>
               <div className="btn-container">
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={() => window.location.href = 'https://github.com/'}
+                  onClick={() => window.location.href = 'https://github.com/MuhammedAshiqTKD/E-COMMERCE-COSMETICS/'}
 
                 >
                   Github
@@ -298,11 +298,11 @@ function App() {
                   className="project-img"
                 />
               </div>
-              <h2 className="experience-sub-title project-title">Project Two</h2>
+              <h2 className="experience-sub-title project-title">COLLEGE-MANAGEMENT</h2>
               <div className="btn-container">
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={() => window.location.href = 'https://github.com/'}
+                  onClick={() => window.location.href = 'https://github.com/MuhammedAshiqTKD/COLLEGE-MANAGEMENT/'}
                 >
                   Github
                 </button>
