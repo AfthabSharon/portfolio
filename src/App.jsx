@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
@@ -7,9 +7,28 @@ function App() {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulating a delay for demonstration purposes
+    const fakeDelay = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+
+    // Clear the timeout to avoid memory leaks
+    return () => clearTimeout(fakeDelay);
+  }, []);
 
   return (
     <>
+          {isLoading && (
+        <div className="loader">
+          <span className="loader__element"></span>
+          <span className="loader__element"></span>
+          <span className="loader__element"></span>
+        </div>
+      )}
+
       <nav id="desktop-nav">
         <div className="logo">MUHAMMED ASHIQ</div>
         <div>
@@ -47,7 +66,7 @@ function App() {
           <p className="section__text__p2">Fullstack Developer</p>
           <div className="btn-container">
             <button
-              className="btn btn-color-2"
+              className="btn btn-color-2 "
               onClick={() => window.open('/MUHAMMED  ASHIQ.pdf')}
             >
               Download CV
