@@ -73,7 +73,7 @@ function App() {
               Download CV
             </button>
             <button className="btn btn-color-1" onClick={() => window.location.href = './#contact'}>
-              Contact Info
+              Contact Info              
             </button>
           </div>
           <div id="socials-container">
