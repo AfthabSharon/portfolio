@@ -63,12 +63,12 @@ function App() {
         </div>
         <div className="section__text">
           <p className="section__text__p1">Hello, I m</p>
-          <h1 className="title">MUHAMMED ASHIQ</h1>
+          <h1 className="title typewriter">MUHAMMED ASHIQ</h1>
           <p className="section__text__p2">Fullstack Developer</p>
           <div className="btn-container">
-            <button
+            <button 
               className="btn btn-color-2 "
-              onClick={() => window.open('/MUHAMMED  ASHIQ.pdf')}
+              onClick={() => window.open('/MUHAMMED  ASHIQ.pdf' )}
             >
               Download CV
             </button>
