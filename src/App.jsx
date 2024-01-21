@@ -48,6 +48,7 @@ function App() {
             <span></span>
             <span></span>
           </div>
+          
           <div className={`menu-links ${menuOpen ? 'open' : ''}`}>
             <li><a href="#about" onClick={toggleMenu}>About</a></li>
             <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
@@ -341,11 +342,11 @@ function App() {
                   className="project-img"
                 />
               </div>
-              <h2 className="experience-sub-title project-title">Project Three</h2>
+              <h2 className="experience-sub-title project-title">BOOK-MY-SHOW CLONE</h2>
               <div className="btn-container">
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={() => window.location.href = 'https://github.com/'}
+                  onClick={() => window.location.href = 'https://github.com/MuhammedAshiqTKD/BOOK_MY_SHOW.git'}
                 >
                   Github
                 </button>
