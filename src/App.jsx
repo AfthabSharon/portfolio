@@ -112,7 +112,7 @@ function App() {
                   className="icon"
                 />
                 <h3>Experience</h3>
-                <p>6 month <br />internship @Synnefosolution</p>
+                <p>6 month course with<br />internship @Synnefosolution</p>
               </div>
               <div className="details-container">
                 <img
