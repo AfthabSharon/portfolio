@@ -81,7 +81,7 @@ function App() {
               src="/linkedin.png"
               alt="My LinkedIn profile"
               className="icon"
-              onClick={() => window.location.href = 'https://linkedin.com/'}
+              onClick={() => window.location.href = 'https://www.linkedin.com/in/muhammed-ashiq-ak-9a05b92ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'}
             />
             <img
               src="/github.png"
@@ -385,7 +385,7 @@ function App() {
               alt="LinkedIn icon"
               className="icon contact-icon"
             />
-            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            <p><a href="https://www.linkedin.com/in/muhammed-ashiq-ak-9a05b92ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
           </div>
         </div>
       </section>
