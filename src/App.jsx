@@ -264,6 +264,8 @@ function App() {
                     alt="Experience icon"
                     className="icon"
                   />
+
+                  {/* yvuyuyguyguyg */}
                   <div>
                     <h3>Git</h3>
                     <p>Intermediate</p>
