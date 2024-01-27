@@ -265,7 +265,7 @@ function App() {
                     className="icon"
                   />
 
-                  {/* yvuyuyguyguyg */}
+                  {/* yvuyjhjbjhbjhbhjbuyguyguyg */}
                   <div>
                     <h3>Git</h3>
                     <p>Intermediate</p>
