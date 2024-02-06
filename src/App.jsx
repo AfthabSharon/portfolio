@@ -61,7 +61,7 @@ function App() {
         <div className="section__pic-container">
           <img src="/ASHIQ1.png" alt="John Doe profile picture" />
         </div>
-        {/* nn */}
+        {/* nnjh jh  */}
         <div className="section__text">
           <p className="section__text__p1">Hello, I m</p>
           <h1 className="title typewriter">MUHAMMED ASHIQ</h1>
