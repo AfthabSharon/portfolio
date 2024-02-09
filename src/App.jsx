@@ -10,7 +10,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulating a delay for demonstration purposes
+    // Simulating a delay for demonstration purposes jbjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
     const fakeDelay = setTimeout(() => {
       setIsLoading(false);
     }, 2000);
